@@ -2,7 +2,7 @@ var images = document.querySelectorAll('.slider img');
 var currentImageIndex = 0;
 var touchStartX = 0;
 var touchEndX = 0;
-var interval = setInterval(nextImage, 5000);
+var interval = setInterval(nextImage, 2000);
 
 function nextImage() {
   images[currentImageIndex].classList.remove('active');
